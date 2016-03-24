@@ -86,7 +86,7 @@ public abstract class AbstractTestCase {
         beanManager = Lifecycle.getBeanManager();
 
         final Connection connection = Connections.getConnection();
-        connection.createStatement().execute("DROP ALL OBJECTS");
+        connection.createStatement().execute("select 1");
         connection.close();
         JdbcRepositories.initAllTables();
 
