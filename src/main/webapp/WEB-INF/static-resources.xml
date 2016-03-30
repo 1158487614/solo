@@ -28,7 +28,8 @@
     <include path="/favicon.ico" />
     <include path="/favicon.png" />
     <include path="/robots.txt" />
-        
+	<include path="/baidu_verify_2hudijyzAA.html" />    
+    
     <include path="/js/**.js" />
     <include path="/js/**/*.js" />
     <include path="/js/**.css" />
